@@ -1,0 +1,1 @@
+select * from {{ref('bronze_returns')}} where returned_qty < 0

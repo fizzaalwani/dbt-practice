@@ -1,1 +1,1 @@
-select * from {{ source ('source','dim_store')}}
+select * from {{ source ('source','dim_store')}} 

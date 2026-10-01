@@ -7,5 +7,26 @@ models:
   - name: bronze_product
     config : 
         materialized : view
+  - name: bronze_sales
+    columns:
+     - name: sales_id
+       data_tests:
+        - unique
+        - not_null
+  - name: bronze_customer
+    columns:
+      - name: gender
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['F','M','Other']
+  - name: bronze_returns
+    columns:
+      - name: returned_qty
+        data_tests:
+          - generic_non_negative
+
+       
+
    
    

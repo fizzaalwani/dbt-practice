@@ -236,3 +236,71 @@ Happy modeling!
 [0m20:40:12.437803 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002070A079610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020723119650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002070A1B5F90>]}
 [0m20:40:12.439801 [debug] [MainThread]: Flushing usage events
 [0m20:40:14.354314 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:26:00.823979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020734821B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020734823290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020734821BD0>]}
+
+
+============================== 21:26:00.851079 | ee69c940-84ae-4b1a-9b37-82457ea1e422 ==============================
+[0m21:26:00.851079 [info ] [MainThread]: Running with dbt=1.12.5
+[0m21:26:00.853081 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\fizza\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m21:26:00.910982 [info ] [MainThread]: dbt version: 1.12.5
+[0m21:26:00.912994 [info ] [MainThread]: python version: 3.11.7
+[0m21:26:00.913995 [info ] [MainThread]: python path: C:\Projects\dbt_ansh\.venv\Scripts\python.exe
+[0m21:26:00.914986 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m21:26:05.073752 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:26:05.074751 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:26:05.075751 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:26:09.490566 [info ] [MainThread]: Using profiles dir at C:\Users\fizza\.dbt
+[0m21:26:09.491571 [info ] [MainThread]: Using profiles.yml file at C:\Users\fizza\.dbt\profiles.yml
+[0m21:26:09.493568 [info ] [MainThread]: Using dbt_project.yml file at C:\Projects\dbt_ansh\dbt_project.yml
+[0m21:26:09.494569 [info ] [MainThread]: adapter type: databricks
+[0m21:26:09.495567 [info ] [MainThread]: adapter version: 1.10.9
+[0m21:26:09.497088 [info ] [MainThread]: Configuration:
+[0m21:26:09.498099 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:26:09.499101 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:26:09.500105 [info ] [MainThread]: Required dependencies:
+[0m21:26:09.501100 [debug] [MainThread]: Executing "git --help"
+[0m21:26:09.570147 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:26:09.572149 [debug] [MainThread]: STDERR: "b''"
+[0m21:26:09.574151 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:26:09.575146 [info ] [MainThread]: Connection:
+[0m21:26:09.576145 [info ] [MainThread]:   host: dbc-96c581a4-ccb7.cloud.databricks.com
+[0m21:26:09.577145 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/d7bebd2b924a8cff
+[0m21:26:09.577665 [info ] [MainThread]:   catalog: dbt_tutorial_dev
+[0m21:26:09.578670 [info ] [MainThread]:   schema: default
+[0m21:26:09.580669 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m21:26:10.510821 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m21:26:10.511820 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:26:10.512824 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:26:10.513825 [debug] [MainThread]: On debug: select 1 as id
+[0m21:26:10.514824 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:26:13.257120 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1bceb-a116-127e-a9b7-3ab3894503e6) - Created
+[0m21:26:22.506416 [debug] [MainThread]: SQL status: OK in 11.990 seconds
+[0m21:26:22.508442 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f1bceb-a116-127e-a9b7-3ab3894503e6, command-id=01f1bceb-a1d8-1c9b-b70c-d166294e4aec) - Closing
+[0m21:26:22.946761 [debug] [MainThread]: On debug: Close
+[0m21:26:22.947764 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1bceb-a116-127e-a9b7-3ab3894503e6) - Closing
+[0m21:26:23.247741 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:26:23.249754 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:26:23.250750 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Projects\dbt_ansh\dbt_project.yml> not found
+
+[0m21:26:23.252749 [debug] [MainThread]: Command `dbt debug` failed at 21:26:23.252749 after 22.68 seconds
+[0m21:26:23.253749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002074EF96710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002074DB7A850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020734821690>]}
+[0m21:26:23.254749 [debug] [MainThread]: Flushing usage events
+[0m21:26:24.826589 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:04:32.278601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF7840990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF7841110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF7840CD0>]}
+
+
+============================== 12:04:32.292473 | b5f55aa4-5919-4b6a-a59f-ec7bb42372fc ==============================
+[0m12:04:32.292473 [info ] [MainThread]: Running with dbt=1.12.5
+[0m12:04:32.293475 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\fizza\\.dbt', 'invocation_command': 'dbt seed', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m12:04:32.295859 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Projects\dbt_ansh\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:04:32.297485 [debug] [MainThread]: Command `dbt seed` failed at 12:04:32.297485 after 0.30 seconds
+[0m12:04:32.298971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF77328D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF7730DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF7733490>]}
+[0m12:04:32.300002 [debug] [MainThread]: Flushing usage events
+[0m12:04:34.592082 [debug] [MainThread]: An error was encountered while trying to flush usage events
