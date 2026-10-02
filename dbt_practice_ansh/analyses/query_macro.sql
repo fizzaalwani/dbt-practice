@@ -1,0 +1,1 @@
+select {{ multiply(20,30) }} as test_col
